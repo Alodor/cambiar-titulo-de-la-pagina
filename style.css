@@ -9,3 +9,34 @@ body {
     background-color: #f4f6f6;
     font-family: 'Roboto', sans-serif;
 }
+
+.container {
+    text-align: center;
+    width: 800px;
+    max-width: 100%;    
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.container h1 {
+    color: #17202a;
+    font-size: 3em;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.container p {
+    color: #5d6d7e;
+    line-height: 1.4em;
+    margin-bottom: 15px;
+}
+
+@media(max-width: 767px) {
+    .container {
+        padding-top: 40px;
+    }
+    
+    .container h1 {
+        font-size: 2em;
+    }
+}
